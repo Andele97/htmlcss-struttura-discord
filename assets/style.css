@@ -160,3 +160,11 @@ header .bottone {
   background-color: chartreuse;
   border: 1px solid black;
 }
+
+/* FOOTER */
+
+.footer {
+  width: 2000px;
+  height: 666px;
+  background-color: #23272A;
+}
