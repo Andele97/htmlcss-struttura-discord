@@ -117,14 +117,24 @@ main .info-bottom .container .image-bottom {
   width: 100%;
   height: 500px;
   background-color: gray;
-  
-  
 }
 
 main .info-bottom .container .ready {
   width: 673px;
   height: 250px;
   background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+main .info-bottom .container .ready .button {
+  width: 227px;
+  height: 57px; /* togliere */
+  background-color: chartreuse;
+  border: 1px solid black;
+  margin: 0 auto;
 }
 
 /* FOOTER */
@@ -155,10 +165,11 @@ footer .footer-top .list{
   border: 1px solid black;
 }
 
+/*footer-bottom*/
 footer .footer-bottom {
   min-height: 200px;
   justify-content: space-between;
-  
+
 }
 
 footer .footer-bottom .logo {
